@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <title>Bay Area Energy Events</title>
+        <link href="assets/bootstrap-3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            #google-calendar{
+                width:100%;
+                height:700px;
+                border:0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href=".">Bay Area Energy Events</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#calendar">Calendar</a></li>
+                        <li><a href="#organizations">Organizations</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container" role="main">
+            <div id="calendar" class="page-header">
+                <h1>Bay Area Energy Events</h1>
+            </div>
+            <p class="lead">
+                The San Francisco Bay Area has a ton of clean energy related events! If you're interested
+                in getting involved in the clean energy community here, try coming to some events. I've
+                compiled a calendar that has all the events from all the <a href="#organizations">organizations</a> I follow.
+            </p>
+
+            <div id="calendar" class="page-header">
+                <h1>Calendar</h1>
+            </div>
+            <p>
+                Feel free to subscribe to this calendar.
+            </p>
+            <iframe id="google-calendar" src="https://calendar.google.com/calendar/embed?src=61bb38nklll6noatmbt4m88518%40group.calendar.google.com&ctz=America/Los_Angeles"></iframe>
+
+            <div id="organizations" class="page-header">
+                <h1>Organizations</h1>
+            </div>
+            <p class="lead">
+                Here's the list of organizations I follow to build the calendar. Please join the one's you like!
+            </p>
+            <ul class="lead">
+                <li><a href="http://ypenergy.org/bay-area/">http://ypenergy.org/bay-area/</a></li>
+                <li><a href="https://groups.google.com/group/Energy-Discuss-SF">https://groups.google.com/group/Energy-Discuss-SF</a></li>
+                <li><a href="http://www.meetup.com/Data-Science-for-Sustainability/">http://www.meetup.com/Data-Science-for-Sustainability/</a></li>
+                <li><a href="http://www.meetup.com/Women-in-Cleantech-Sustainability/">http://www.meetup.com/Women-in-Cleantech-Sustainability/</a></li>
+                <li><a href="http://www.meetup.com/CleanwebSF/">http://www.meetup.com/CleanwebSF/</a></li>
+                <li><a href="http://energyaccesssf.org/">http://energyaccesssf.org/</a></li>
+                <li><a href="http://www.meetup.com/Software-for-Renewable-Energy-Bay-Area/">http://www.meetup.com/Software-for-Renewable-Energy-Bay-Area/</a></li>
+                <li><a href="http://www.powertrip.info/">http://www.powertrip.info/</a></li>
+                <li><a href="http://www.elenalucas.co/bay-area-events.html">http://www.elenalucas.co/bay-area-events.html</a></li>
+                <li><a href="http://www.eventbrite.com/o/east-bay-green-drinks-552269010">http://www.eventbrite.com/o/east-bay-green-drinks-552269010</a></li>
+                <li><a href="http://sfgreendrinks.org/">http://sfgreendrinks.org/</a></li>
+            </ul>
+        </div>
+
+        <footer class="container" role="footer">
+            <p style="margin-top:20px;">
+                Released under MIT License.
+                <a href="https://github.com/diafygi/bay-area-energy-events">https://github.com/diafygi/bay-area-energy-events</a>
+            </p>
+        </footer>
+
+
+        <script src="assets/jquery-1.11.3/jquery.min.js"></script>
+        <script src="assets/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    </body>
+</html>
+
